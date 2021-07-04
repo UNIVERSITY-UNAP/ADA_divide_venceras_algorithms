@@ -1,5 +1,5 @@
-from sys import maxsize
-NEG_INF = -1 * maxsize
+from math import inf
+NEG_INF = -1 * inf
 
 def find_max_crossing_subarray(A, low, mid, high):
     max_left = max_right = None
